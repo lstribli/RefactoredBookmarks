@@ -1,9 +1,9 @@
 import $ from 'jquery';
-import api from './api';
-import bookmarksApp from './App';
+import api from '../api';
+import bookmarksApp from '../../src/App';
 import store from './store';
-import events from './events';
-import App from './App';
+import events from '../../src/events';
+import App from '../../src/App';
 import './index.css';
 
 function main() {

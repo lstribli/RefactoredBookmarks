@@ -1,7 +1,7 @@
 import $ from 'jquery';
-import api from './api';
+import api from '../origin/api';
 import App from './App';
-import store from './store';
+import store from '../origin/src/store';
 import errors from './errors';
 
 function AddNew() {

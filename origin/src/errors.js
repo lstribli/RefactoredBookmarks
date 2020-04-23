@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import store from '../../src/store';
+import store from './store';
 
 function generateError(msg) {
   return `
