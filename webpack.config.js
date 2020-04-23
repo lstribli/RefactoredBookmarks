@@ -6,7 +6,7 @@ module.exports = {
     path: __dirname + '/dist',
     filename: 'index_bundle.js'
   },
-  mode: 'development', devServer: { port: 3000 },
+  mode: 'development',
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
