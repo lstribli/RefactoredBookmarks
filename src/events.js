@@ -1,8 +1,8 @@
 import $ from 'jquery';
-import api from '../origin/api';
+import api from '../../api';
 import App from './App';
-import store from '../origin/src/store';
-import errors from './errors';
+import store from './store';
+import errors from '../../errors';
 
 function AddNew() {
   $('body').on('click', '#addNew', event => {

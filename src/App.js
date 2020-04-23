@@ -1,7 +1,7 @@
 import $ from 'jquery';
-import store from '../origin/src/store';
-import errors from './errors';
-import pages from '../origin/src/pages';
+import store from './store';
+import errors from '../../errors';
+import pages from './pages';
 
 
 function BookmarkItself(bookmark) {
