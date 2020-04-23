@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import store from './store';
-import errors from '../../errors';
+import errors from './errors';
 import pages from './pages';
 
 

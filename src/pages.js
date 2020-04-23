@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import App from '../../src/App';
+import App from './App';
 import store from './store';
 
 
