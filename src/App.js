@@ -53,7 +53,7 @@ function Dropdown() {
     { value: 4, selected: '4+ Stars', },
     { value: 3, selected: '3+ Stars', },
     { value: 2, selected: '2+ Stars', },
-    // { value: 1, selected: '1 Star', }
+    { value: 1, selected: '1+ Stars', }
   ];
 
   for (let i = 0; i <= selections.length - 1; i++) {
